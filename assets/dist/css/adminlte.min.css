@@ -274,7 +274,7 @@ select {
 [type=reset],
 [type=submit],
 button {
-    -webkit-appearance: button
+    -webkit-appearance: button; 
 }
 
 [type=button]:not(:disabled),
@@ -9163,7 +9163,7 @@ button.bg-dark:hover {
 .p-2 {
     padding: .5rem !important;
     margin-bottom: 50px;
-    margin-top: 30 px;
+    margin-top: 30px;
 
 }
 
@@ -22281,9 +22281,9 @@ html.maximized-card {
 .register-logo a {
     color: #495057
 }
-.login-page{
-    /* backdrop-filter: blur(5px); */
-}
+/* .login-page{
+    backdrop-filter: blur(5px);
+} */
 .login-page,
 .register-page {
     -ms-flex-align: center;
