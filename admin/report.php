@@ -67,8 +67,7 @@ function ordinal_suffix($num){
 				<p class=""><b>Total Student Evaluated: <span id="tse"></span></b></p>
 			</div>
 				<fieldset class="border border-info p-2 w-100">
-				   <legend  class="w-auto">Rating Legend</legend>
-				   <p>5 = Strongly Agree, 4 = Agree, 3 = Uncertain, 2 = Disagree, 1 = Strongly Disagree</p>
+					
 				</fieldset>
 				<?php 
 							$q_arr = array();
@@ -79,11 +78,11 @@ function ordinal_suffix($num){
 						<thead>
 							<tr class="bg-gradient-secondary">
 								<th class=" p-1"><b><?php echo $crow['criteria'] ?></b></th>
-								<th width="5%" class="text-center">1</th>
-								<th width="5%" class="text-center">2</th>
-								<th width="5%" class="text-center">3</th>
-								<th width="5%" class="text-center">4</th>
-								<th width="5%" class="text-center">5</th>
+								<th width="5%" class="text-center">Excillent</th>
+								<th width="5%" class="text-center">Good</th>
+								<th width="5%" class="text-center">Better</th>
+								<th width="5%" class="text-center">Agree</th>
+								<th width="5%" class="text-center">Disagree</th>
 							</tr>
 						</thead>
 						<tbody class="tr-sortable">

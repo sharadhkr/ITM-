@@ -48,10 +48,10 @@ $restriction = $conn->query("SELECT r.id,s.id as sid,f.id as fid,concat(f.firstn
 					</div>
 				</div>
 				<div class="card-body">
-					<fieldset class="border border-info p-2 w-100">
+					<!-- <fieldset class="border border-info p-2 w-100">
 					   <legend  class="w-auto">Rating Legend</legend>
 					   <p>5 = Strongly Agree, 4 = Agree, 3 = Uncertain, 2 = Disagree, 1 = Strongly Disagree</p>
-					</fieldset>
+					</fieldset> -->
 					<form id="manage-evaluation">
 						<input type="hidden" name="class_id" value="<?php echo $_SESSION['login_class_id'] ?>">
 						<input type="hidden" name="faculty_id" value="<?php echo $faculty_id?>">
@@ -68,11 +68,12 @@ $restriction = $conn->query("SELECT r.id,s.id as sid,f.id as fid,concat(f.firstn
 						<thead>
 							<tr class="bg-gradient-secondary">
 								<th class=" p-1"><b><?php echo $crow['criteria'] ?></b></th>
-								<th class="text-center">1</th>
-								<th class="text-center">2</th>
-								<th class="text-center">3</th>
-								<th class="text-center">4</th>
-								<th class="text-center">5</th>
+								<!-- <th class=" p-1"><b><?php echo $crow['criteria'] ?></b></th> -->
+								<th width="5%" class="text-center">Excillent</th>
+								<th width="5%" class="text-center">Good</th>
+								<th width="5%" class="text-center">Better</th>
+								<th width="5%" class="text-center">Agree</th>
+								<th width="5%" class="text-center">Disagree</th>
 							</tr>
 						</thead>
 						<tbody class="tr-sortable">

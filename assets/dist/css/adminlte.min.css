@@ -1971,7 +1971,7 @@ pre code {
 }
 
 .table thead th {
-    vertical-align: bottom;
+    vertical-align: middle;
     border-bottom: 2px solid #dee2e6
 }
 
@@ -9161,9 +9161,13 @@ button.bg-dark:hover {
 }
 
 .p-2 {
-    padding: .5rem !important;
-    margin-bottom: 50px;
+    height: 100px;
+    margin-bottom: 30px;
     margin-top: 30px;
+    background-color: #822f2d;
+    /* opacity: 80%; */
+    border: none;
+    border-radius: 10px;
 
 }
 
@@ -20647,6 +20651,7 @@ html.maximized-card {
     color: #495057;
     text-decoration: none;
     font-size: 15px;
+    /* position: absolute; */
 }
 
 .callout a:hover {
@@ -30727,7 +30732,9 @@ blockquote.quote-gray-dark h6 {
 }
 
 .bg-gradient-primary {
-    background: #007bff linear-gradient(180deg, #268fff, #007bff) repeat-x !important;
+    /* background: #007bff linear-gradient(180deg, #268fff, #007bff) repeat-x !important; */
+    background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
     color: #fff;
     padding: 10px 20px 10px 20px;
     /* width: 200px; */
@@ -30743,7 +30750,9 @@ blockquote.quote-gray-dark h6 {
 
 .bg-gradient-primary.btn:hover {
     background: #007bff linear-gradient(180deg, #267fde, #0069d9) repeat-x !important;
-    border-color: #0062cc;
+    background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
+    border-color: #f5bd53;
     color: #ececec
 }
 
@@ -30808,6 +30817,8 @@ blockquote.quote-gray-dark h6 {
 .bg-gradient-success.btn:not(:disabled):not(.disabled).active,
 .bg-gradient-success.btn:not(:disabled):not(.disabled):active {
     background: #28a745 linear-gradient(180deg, #409152, #1e7e34) repeat-x !important;
+    background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
     border-color: #1c7430;
     color: #fff
 }

@@ -28874,6 +28874,8 @@ blockquote.quote-gray-dark h6 {
 
 .bg-gradient-primary {
   background: #007bff linear-gradient(180deg, #268fff, #007bff) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
   color: #fff;
 }
 
@@ -28884,18 +28886,21 @@ blockquote.quote-gray-dark h6 {
 
 .bg-gradient-primary.btn:hover {
   background: #007bff linear-gradient(180deg, #267fde, #0069d9) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
   border-color: #0062cc;
   color: #ececec;
 }
 
 .bg-gradient-primary.btn:not(:disabled):not(.disabled):active, .bg-gradient-primary.btn:not(:disabled):not(.disabled).active, .bg-gradient-primary.btn:active, .bg-gradient-primary.btn.active {
-  background: #007bff linear-gradient(180deg, #267ad4, #0062cc) repeat-x !important;
-  border-color: #005cbf;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+  border-color: #f5bd53;
   color: #fff;
 }
 
 .bg-gradient-secondary {
   background: #6c757d linear-gradient(180deg, #828a91, #6c757d) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
   color: #fff;
 }
 
@@ -28906,18 +28911,24 @@ blockquote.quote-gray-dark h6 {
 
 .bg-gradient-secondary.btn:hover {
   background: #6c757d linear-gradient(180deg, #73797f, #5a6268) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
   border-color: #545b62;
   color: #ececec;
 }
 
 .bg-gradient-secondary.btn:not(:disabled):not(.disabled):active, .bg-gradient-secondary.btn:not(:disabled):not(.disabled).active, .bg-gradient-secondary.btn:active, .bg-gradient-secondary.btn.active {
   background: #6c757d linear-gradient(180deg, #6e7479, #545b62) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
   border-color: #4e555b;
   color: #fff;
 }
 
 .bg-gradient-success {
   background: #28a745 linear-gradient(180deg, #48b461, #28a745) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
   color: #fff;
 }
 
@@ -28928,12 +28939,16 @@ blockquote.quote-gray-dark h6 {
 
 .bg-gradient-success.btn:hover {
   background: #28a745 linear-gradient(180deg, #429a56, #218838) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
   border-color: #1e7e34;
   color: #ececec;
 }
 
 .bg-gradient-success.btn:not(:disabled):not(.disabled):active, .bg-gradient-success.btn:not(:disabled):not(.disabled).active, .bg-gradient-success.btn:active, .bg-gradient-success.btn.active {
   background: #28a745 linear-gradient(180deg, #409152, #1e7e34) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
   border-color: #1c7430;
   color: #fff;
 }
@@ -28956,6 +28971,8 @@ blockquote.quote-gray-dark h6 {
 
 .bg-gradient-info.btn:not(:disabled):not(.disabled):active, .bg-gradient-info.btn:not(:disabled):not(.disabled).active, .bg-gradient-info.btn:active, .bg-gradient-info.btn.active {
   background: #17a2b8 linear-gradient(180deg, #358e9c, #117a8b) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
   border-color: #10707f;
   color: #fff;
 }
@@ -29022,6 +29039,8 @@ blockquote.quote-gray-dark h6 {
 
 .bg-gradient-light.btn:not(:disabled):not(.disabled):active, .bg-gradient-light.btn:not(:disabled):not(.disabled).active, .bg-gradient-light.btn:active, .bg-gradient-light.btn.active {
   background: #f8f9fa linear-gradient(180deg, #e0e4e9, #dae0e5) repeat-x !important;
+  background: #f5bd53 linear-gradient(180deg, #f5bd53, #f5bd53) repeat-x !important;
+
   border-color: #d3d9df;
   color: #1f2d3d;
 }
@@ -30727,7 +30746,7 @@ a.text-muted:hover {
 
 .accent-orange .btn-link,
 .accent-orange a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link):not(.btn) {
-  color: #fd7e14;
+  color: #ecbf65;
 }
 
 .accent-orange .btn-link:hover,
